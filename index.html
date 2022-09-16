@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <img src="agenda/contatos.jpg" alt="">
+    <link rel="stylesheet" type="text/css" href="estilox.css" />	
+    <title>Agenda de Contatos</title>
+</head>
+
+<body>
+    <!-- <div class="container mt-4"></div>
+     <div class="display-4 text-center">
+        <i class="fas fa-address-book text-success"></i>
+        Agenda de Contatos</div> -->
+
+        <h1>Agenda de Contatos</h1>
+
+        <form id="formulario-contato">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome"><br>
+            </div>
+            
+            <div class="form-group"></div>
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" class="form-control" placeholder="Telefone"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="endereço">Endereço:</label>
+                <input type="text" name="endereço" id="endereço" class="form-control" placeholder="Endereço"><br>
+            </div>
+          
+            <div class="form-group"></div>
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" class="form-control" placeholder="E-mail"><br>
+            </div>
+
+            <div class="date"> 
+                <label for="aniversario">Aniversário:</label>
+                <input id="aniversario" type="date" name="aniversario" class="form-control"  placeholder="Aniversario"><br>
+            </div>
+
+            <input type="submit" value="Adicionar" class="btn-success"><br>
+            <!-- </button> -->
+        </form>
+
+        <table class="">
+            <thead class="table-success">
+                <tr>
+                    <td>Nome</td>
+                    <td>Telefone</td>
+                    <td>Endereço</td>
+                    <td>E-mail</td>
+                    <td>Aniversário</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody id="lista-contato"></tbody>
+        </table>
+    </div>
+
+    <script src="agendav1.js"></script>
+
+</body>
+</html>
