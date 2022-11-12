@@ -44,9 +44,9 @@ label, input{
 	border-radius: 5px;
 	}
 
-table{
+.table-success{
 	background-color: #ffffff;
-     width: 48%;
+    width: 48%;
     color: rgb(0, 0, 0);
 	font: 1rem 'Adamina', serif;
     margin-left: 29%;
@@ -61,7 +61,7 @@ table{
 
 @media (max-width: 1104px){
 	*{
-		max-width: 300px;
+		max-width: 330px;
 		/* margin: 0 0 0 15px; */
 	}
 	/* img{
@@ -71,5 +71,12 @@ table{
 	  } */
 	#formulario-contato{
 		margin: 0 0 0 15px;
+	}
+	.table-success{
+		margin: 0 auto;
+		/* word-spacing: 5px; */
+		/* line-height: 90%; */
+		/* letter-spacing: 1px; */
+		/* font: 1rem 'Adamina', serif; */
 	}
 }
