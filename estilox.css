@@ -81,6 +81,7 @@ label, input{
 
 	#formulario-contato{
 		margin: 0 auto;
+		margin-top: 2%;
 	}
 
 	.btn-success{
@@ -89,10 +90,6 @@ label, input{
 
 	.table-success{
 		margin: 0 auto;
-		/* word-spacing: 5px; */
-		/* line-height: 90px; */
-		/* letter-spacing: 3px; */
-		/* border-radius: 30%; */
-		/* font: 1rem 'Adamina', serif; */
+		max-width: 390px;
 	}
 }
