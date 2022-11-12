@@ -11,7 +11,7 @@ h1{
 	margin-top: -7px;
 }
 
-form{
+#formulario-contato{
 	width: 500px;
 	margin: 0 auto;
 }
@@ -58,3 +58,18 @@ table{
 }
 
 /* RESPONSIVO */
+
+@media (max-width: 1104px){
+	*{
+		max-width: 300px;
+		/* margin: 0 0 0 15px; */
+	}
+	/* img{
+		margin-top: 10px;
+		width: 300px;
+		height: 300px;
+	  } */
+	#formulario-contato{
+		margin: 0 0 0 15px;
+	}
+}
