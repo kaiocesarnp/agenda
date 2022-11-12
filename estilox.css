@@ -36,7 +36,8 @@ label, input{
 }
 
 .btn-success{
-    width: 18%;
+    width: 22%;
+	text-transform: uppercase;
     display:flex;
     margin:0 auto;
 	background-color: #038f22;
@@ -61,8 +62,8 @@ label, input{
 
 @media (max-width: 1104px){
 	*{
-		max-width: 330px;
-		/* margin: 0 0 0 15px; */
+		max-width: 300px;
+		/* margin: 0 auto; */
 	}
 	/* img{
 		margin-top: 10px;
@@ -70,10 +71,15 @@ label, input{
 		height: 300px;
 	  } */
 	#formulario-contato{
-		margin: 0 0 0 15px;
-	}
-	.table-success{
 		margin: 0 auto;
+	}
+
+	.btn-success{
+		width: 38%;
+	}
+	
+	.table-success{
+		margin: 0 0 0 10px;
 		/* word-spacing: 5px; */
 		/* line-height: 90%; */
 		/* letter-spacing: 1px; */
